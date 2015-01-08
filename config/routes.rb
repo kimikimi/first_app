@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  resources :microposts
+
+  resources :users
+
  get "say_hello/hello_world"
  post "say_hello/hello_world"
   # The priority is based upon order of creation: first created -> highest priority.
